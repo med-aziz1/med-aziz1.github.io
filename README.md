@@ -11,8 +11,7 @@
   *June 2019*
   
 ## Education
-**4InA Technologie, Manouba** | End-of-Year Internship  
-  *February 2025 - June 2025*  
+**4InA Technologie, Manouba** | End-of-Year Internship  *February 2025 - June 2025*  
   - Designed a 4-layer PCB integrating STM32 and ESP32 microcontrollers for a modular smart meter.  
   - Developed embedded firmware for data transmission and remote control via an HTTP server.  
   - Delivered a functional prototype for industrial use.  
