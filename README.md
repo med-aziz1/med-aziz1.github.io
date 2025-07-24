@@ -60,13 +60,12 @@ Final assembled board used for testing and integration with the smart metering s
 
 ![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
 
-bottom view
-![Assembled PCB](assets/pcbfinalbottom-removebg-preview.png)
+![Assembled PCB](assets/pcbfinalbottom-removebg-preview (1).png)
 
 
-### ▶️ Demonstration – Flashing and Testing  
-Short demonstration of firmware upload via ST-Link, UART data transmission from sensors, and LoRa communication in operation.
+### Demonstration – Flashing and Testing  
+Short demonstration of alimentation testing, firmware upload via ST-Link for STM32, and via USB to UART converter for ESP32.
 
-[▶️ Watch PCB Testing Video](assets/testing_video.mp4)
+[▶️ Watch PCB Testing Video](assets/vid-20250627-165903_GycJ9RA9.mp4)
 
 
