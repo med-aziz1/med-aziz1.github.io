@@ -44,7 +44,7 @@ Designed and developed a modular **4-layer** PCB for smart metering applications
 - Routing optimized with **Saturn PCB Toolkit** for impedance control and trace calculations  
 All design files were created using **Altium Designer** with careful layer stackup and EMC considerations.
 
-### 📐 System Block Diagram  
+### System Block Diagram  
 A high-level representation of the microcontroller interfaces, sensor inputs, and communication channels.
 
 ![System Block Diagram](assets/SystemDiagram.png)
@@ -53,15 +53,15 @@ A high-level representation of the microcontroller interfaces, sensor inputs, an
 ### PCB Design – Gerber Preview  
 A visual snapshot of the routed PCB, highlighting copper traces, component placement, and ground planes.
 
-[View PCB Gerber Preview (PDF)](assets/Job.pdf)
+[View PCB Gerber Preview (PDF)](assets/Job.PDF)
 
 ### Assembled PCB  
 Final assembled board used for testing and integration with the smart metering system.
 
-![Assembled PCB](pcbfinaleaveclora-removebg-preview.png)
+![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
 
 bottom view
-![Assembled PCB](pcbfinalbottom-removebg-preview.png)
+![Assembled PCB](assets/pcbfinalbottom-removebg-preview.png)
 
 
 ### ▶️ Demonstration – Flashing and Testing  
