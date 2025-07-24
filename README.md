@@ -59,9 +59,10 @@ A visual snapshot of the routed PCB, highlighting copper traces, component place
 Final assembled board used for testing and integration with the smart metering system.
 
 ![Assembled PCB](pcbfinaleaveclora-removebg-preview.png)
+
+bottom view
 ![Assembled PCB](pcbfinalbottom-removebg-preview.png)
 
----
 
 ### ▶️ Demonstration – Flashing and Testing  
 Short demonstration of firmware upload via ST-Link, UART data transmission from sensors, and LoRa communication in operation.
