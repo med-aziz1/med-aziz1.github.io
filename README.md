@@ -30,38 +30,42 @@
   - *Keywords*: Gas Compression, Pipeline Management, Energy Infrastructure
 
 ## Projects
-### 🧩 Modular Motherboard for Smart Meters  
-**Technologies:** STM32, ESP32, LoRa, UART, I2C, SPI, ADC, Altium Designer, Multilayer PCB, Power Management, Sensor Interfaces
+## Modular Motherboard for Smart Meters
 
-As part of my end-of-year engineering project, I designed and developed a modular 4-layer PCB to serve as a central platform for smart metering and industrial sensing applications. The system combines robust data acquisition, communication, and power management to enable reliable and scalable monitoring in embedded environments.
+**Technologies:** STM32, ESP32, LoRa, UART, I2C, SPI, ADC, Altium Designer, Saturn PCB Toolkit, Power Management
 
-#### 🔧 System Overview:
-- **Microcontroller Architecture:**
-  - STM32 handles analog signal acquisition and preprocessing (current, voltage, and environmental sensors).
-  - ESP32 manages wireless communication and higher-level data handling.
-  - Data exchange between STM32 and ESP32 is performed via UART using a clearly defined protocol.
+### Overview  
+Designed and developed a modular **4-layer** PCB for smart metering applications, integrating sensor acquisition, signal processing, and wireless communication. The board supports:
+- **Current and voltage sensors** for real-time energy monitoring  
+- Interfaces for **external sensors** such as temperature, vibration, and pressure (via I2C/SPI)  
+- **ESP32 module** for wireless control, receiving data via UART from the STM32 core  
+- **LoRa kit** for long-range data transmission  
+- Onboard power regulation (LDO and switching regulators)  
+- Routing optimized with **Saturn PCB Toolkit** for impedance control and trace calculations  
+All design files were created using **Altium Designer** with careful layer stackup and EMC considerations.
 
-- **Sensor Integration:**
-  - Support for current and voltage sensors, with analog signal conditioning circuits for stable ADC readings.
-  - Expandable interfaces for temperature, vibration, and other indusatrial sensors using various communication protocols.
-  - Modular pin headers designed to simplify the addition of external modules or sensors.
+### 📐 System Block Diagram  
+A high-level representation of the microcontroller interfaces, sensor inputs, and communication channels.
 
-- **Wireless Communication:**
-  - Integration of a **LoRa module** for long-range, low-power data transmission which is suitable for remote monitoring use cases.
-  - The ESP32 acts as a bridge between STM32 data and LoRa/cloud services.
+![System Block Diagram](assets/SystemDiagram.png)
 
-- **PCB Design:**
-  - Full **4-layer** stack-up with clear separation between analog and digital domains to reduce noise and EMI.
-  - Onboard voltage regulation using LDOs, with dedicated power planes for critical components.
-  - Clean routing for high-frequency signals, impedance-matched where needed, and adequate decoupling/filtering.
 
-#### 🛠 My Contributions:
-- Designed complete schematics and multilayer PCB in **Altium Designer**.
-- Defined and implemented the **data flow** between microcontrollers and communication modules.
-- Developed signal conditioning circuits and selected appropriate components for accurate analog sensing.
--  Performed **impedance calculations using Saturn PCB Toolkit** to ensure high-speed signal integrity and respect layout proprieties.
-- Validated inter-module communication and sensor acquisition through testing routines.
+### PCB Design – Gerber Preview  
+A visual snapshot of the routed PCB, highlighting copper traces, component placement, and ground planes.
 
-> This project highlights my ability to combine embedded system design, PCB layout, and practical integration of sensing and communication technologies in a modular hardware platform.
+[View PCB Gerber Preview (PDF)](assets/Job.pdf)
+
+### Assembled PCB  
+Final assembled board used for testing and integration with the smart metering system.
+
+![Assembled PCB](pcbfinaleaveclora-removebg-preview.png)
+![Assembled PCB](pcbfinalbottom-removebg-preview.png)
+
+---
+
+### ▶️ Demonstration – Flashing and Testing  
+Short demonstration of firmware upload via ST-Link, UART data transmission from sensors, and LoRa communication in operation.
+
+[▶️ Watch PCB Testing Video](assets/testing_video.mp4)
 
 
