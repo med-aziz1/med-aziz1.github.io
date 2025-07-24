@@ -68,4 +68,29 @@ Short demonstration of alimentation testing, firmware upload via ST-Link for STM
 
 [▶️ Watch PCB Testing Video](assets/vid-20250627-165903_GycJ9RA9.mp4)
 
+## ESP32-S3 Mini Board Design
+
+This is a custom 4-layer development board designed around the **ESP32-S3-MINI-1** module, inspired by the official Espressif DevKitM-1. The board offers enhanced flexibility with **dual USB-C ports**, allowing for both **power supply** and **native USB communication** independently.
+
+### Key Features
+
+- **ESP32-S3-MINI-1** module with dual-core Xtensa® LX7 CPU and AI acceleration  
+- **Dual USB-C ports**:
+  - One for **native USB** (USB-OTG / USB-JTAG / USB-CDC)
+  - One for **power and flashing** via onboard **CH343** USB-UART bridge
+- **4-layer PCB** for better signal integrity and noise control
+- Onboard 5V to 3.3V **LDO voltage regulator**
+- **BOOT** and **RESET** buttons for development and flashing
+- Breakout **GPIO headers** for sensor and module integration
+- Compact and robust design for embedded and IoT prototyping
+
+### Design Details
+
+- Designed using **Altium Designer**
+- **Saturn PCB Toolkit** used for controlled impedance and trace width calculations
+- USB differential pair routing optimized for signal quality
+- All components selected for reliability, assembly ease, and developer support
+### PCB 3D View
+![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
+
 
