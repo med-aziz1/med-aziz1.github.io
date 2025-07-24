@@ -91,6 +91,45 @@ This is a custom 4-layer development board designed around the **ESP32-S3-MINI-1
 - USB differential pair routing optimized for signal quality
 - All components selected for reliability, assembly ease, and developer support
 ### PCB 3D View
-![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
+![Assembled PCB](assets/ESP32S3 topView.png)
+![Assembled PCB](assets/ESP32S3 bttomView.png)
 
+### Documentation
+ESP32-S3-MINI-1 Datasheet [Download PDF](assets/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)
+Gerber Files  [Download ZIP](assets/Gerber.zip)
+
+## Custom PCB to control the Modular Cutter Device
+
+This is a custom-designed PCB developed for a modular ribbon and belt cutter system. It acts as the main controller board, integrating stepper motor control, LCD interface, and regulated power supply, all centered around the **ESP8266** microcontroller.
+
+### Key Features
+
+- **ESP8266** microcontroller for Wi-Fi-based control and automation
+- **Dual stepper motor support**:
+  - Cutter motor and feeder motor driven via **A4988 stepper drivers**
+  - Output headers provided for clean connection to motors
+- **RepRap Smart LCD connector**:
+  - For user-friendly HMI control with display and encoder
+- **Power supply**:
+  - **12V input** powering the stepper motors directly
+  - **LM7805 regulator** provides 5V output to power the ESP8266 and logic level components
+- **Compact single-board design**, suitable for enclosure mounting
+- Designed in **Altium Designer**
+
+### PCB 3D View
+![Assembled PCB](assets/ModularCutterPCB.png)
+![Assembled PCB](assets/ModularCutterPCBbottom.png)
+
+### Documentation & Downloads
+
+Gerber Files  [Download ZIP](assets/Gerber.zip)
+
+### ⚙️ Applications
+
+- Modular automatic ribbon or wire cutters
+- Embedded automation tools
+- IoT-controlled electromechanical systems
+- Prototyping motion control projects with stepper motors
+
+---
 
