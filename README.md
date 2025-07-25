@@ -1,14 +1,27 @@
-# Electrical Automation Engineer
-Passionate about embedded systems, PCB design, and IoT-based industrial solutions.
+# Mohamed Aziz Lassoued - Electrical Automation Engineer
 
-#### Technical Skills
+## About
+This portfolio showcases my work as an Electrical and Automation Engineer. **Passionate about PCB design, embedded systems, and IoT-based industrial solutions**, I am seeking a full-time role in hardware design.
 
-**CAD and Simulation Tools:** Altium Designer, Saturn PCB Toolkit, Proteus, ModelSim, LabVIEW, Simulink
-**Software and IDEs:** STM32CubeIDE, Visual Studio Code, Arduino IDE, TIA Portal, Android Studio, Google Colab 
-**Programming Languages:** C/C++, Python, Assembler, Java, Dart, MATLAB, VHDL     
-**Communication Protocols:** UART, I2C, SPI, CAN, MQTT, HTTP  
-**Microcontrollers / Microprocessors:** STM32, ESP32, Raspberry Pi, Arduino, MSP430  
-**Development Frameworks and Debugging Tools:** FreeRTOS, ESP-IDF, Git, JTAG/SWD, OpenOCD
+- **Email:** [lassoued10.mohamedaziz@gmail.com](mailto:lassoued10.mohamedaziz@gmail.com)  
+- **LinkedIn:** [Mohamed Aziz Lassoued](https://www.linkedin.com/in/mohamed-aziz-lassoued-272762270)  
+- **GitHub:** [med-aziz1](https://github.com/med-aziz1)  
+- **Phone:** [+216 25 333 669](tel:+21625333669)
+
+## Technical Skills
+
+- **Design Tools**:  
+  - Altium Designer, Saturn PCB Toolkit, Proteus, ModelSim, LabVIEW, Simulink  
+- **Programming Languages**:  
+  - C/C++, Python, Assembler, Java, Dart, MATLAB, VHDL  
+- **Software and IDEs**:  
+  - STM32CubeIDE, Visual Studio Code, Arduino IDE, TIA Portal, Android Studio, Google Colab  
+- **Communication Protocols**:  
+  - UART, I2C, SPI, CAN, MQTT, HTTP  
+- **Microcontrollers/Microprocessors**:  
+  - STM32, ESP32, Raspberry Pi, Arduino, MSP430  
+- **Development Frameworks and Debugging Tools**:  
+  - FreeRTOS, ESP-IDF, Git, JTAG/SWD, OpenOCD
 
 ## Education
 - **National Engineering School of Gabes (ENIG)**, Electrical and Automation Engineering  
@@ -38,11 +51,11 @@ Passionate about embedded systems, PCB design, and IoT-based industrial solution
   - *Keywords*: Gas Compression, Pipeline Management, Energy Infrastructure
 
 ## Projects
-## Modular Motherboard for Smart Meters
+### Modular Motherboard for Smart Meters
 
 **Technologies:** STM32, ESP32, LoRa, UART, I2C, SPI, ADC, Altium Designer, Saturn PCB Toolkit, Power Management
 
-### Overview  
+#### Overview  
 Designed and developed a modular **4-layer** PCB for smart metering applications, integrating sensor acquisition, signal processing, and wireless communication. The board supports:
 - **Current and voltage sensors** for real-time energy monitoring  
 - Interfaces for **external sensors** such as temperature, vibration, and pressure (via I2C/SPI)  
@@ -52,35 +65,40 @@ Designed and developed a modular **4-layer** PCB for smart metering applications
 - Routing optimized with **Saturn PCB Toolkit** for impedance control and trace calculations  
 All design files were created using **Altium Designer** with careful layer stackup and EMC considerations.
 
-### System Block Diagram  
+#### System Block Diagram  
 A high-level representation of the microcontroller interfaces, sensor inputs, and communication channels.
 
 ![System Block Diagram](assets/SystemDiagram.png)
 
 
-### PCB Design – Gerber Preview  
+#### PCB Design – Gerber Preview  
 A visual snapshot of the routed PCB, highlighting copper traces, component placement, and ground planes.
 
 [View PCB Gerber Preview (PDF)](assets/Job.PDF)
 
-### Assembled PCB  
+#### Assembled PCB  
 Final assembled board used for testing and integration with the smart metering system.
 
-![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
+- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
 
-![Assembled PCB](assets/pcbfinalbottom-removebg-preview (1).png)
+- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/pcbfinalbottom-removebg-preview (1).png)
 
-
-### Demonstration – Flashing and Testing  
+#### Demonstration – Flashing and Testing  
 Short demonstration of alimentation testing, firmware upload via ST-Link for STM32, and via USB to UART converter for ESP32.
 
 [▶️ Watch PCB Testing Video](assets/vid-20250627-165903_GycJ9RA9.mp4)
 
-## ESP32-S3 Mini Board Design
+#### Applications
+- Smart metering systems  
+- Industrial IoT solutions
+- 
+### ESP32-S3 Mini Board Design
+**Technologies:** ESP32-S3-MINI-1, Altium Designer, Saturn PCB Toolkit, CH343, USB-C
 
+#### Overview
 This is a custom 4-layer development board designed around the **ESP32-S3-MINI-1** module, inspired by the official Espressif DevKitM-1. The board offers enhanced flexibility with **dual USB-C ports**, allowing for both **power supply** and **native USB communication** independently.
 
-### Key Features
+#### Key Features
 
 - **ESP32-S3-MINI-1** module with dual-core Xtensa® LX7 CPU and AI acceleration  
 - **Dual USB-C ports**:
@@ -90,32 +108,32 @@ This is a custom 4-layer development board designed around the **ESP32-S3-MINI-1
 - Onboard 5V to 3.3V **LDO voltage regulator**
 - **BOOT** and **RESET** buttons for development and flashing
 - Breakout **GPIO headers** for sensor and module integration
-- Compact and robust design for embedded and IoT prototyping
 
-### Design Details
+#### Design Details
 
 - Designed using **Altium Designer**
 - **Saturn PCB Toolkit** used for controlled impedance and trace width calculations
 - USB differential pair routing optimized for signal quality
-- All components selected for reliability, assembly ease, and developer support
-### PCB 3D View
-![Assembled PCB](assets/ESP32S3 topView.png)
-![Assembled PCB](assets/ESP32S3 bttomView.png)
 
-### Documentation & Downloads
-ESP32-S3-MINI-1 Datasheet [Download PDF](assets/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)
-Gerber Files  [Download ZIP](assets/Gerber.zip)
-### Applications
+#### PCB 3D View
+- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/ESP32S3 topView.png)
+- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/ESP32S3 bttomView.png)
+
+#### Documentation & Downloads
+-ESP32-S3-MINI-1 Datasheet [Download PDF](assets/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)
+
+-Gerber Files  [Download ZIP](assets/Gerber.zip)
+#### Applications
 
 - Embedded prototyping
 - USB-based device development
 - IoT systems using ESP-IDF
 
-## Custom PCB to control the Modular Cutter Device
+### Custom PCB to control the Modular Cutter Device
 
 This is a custom-designed PCB developed for a modular ribbon and belt cutter system. It acts as the main controller board, integrating stepper motor control, LCD interface, and regulated power supply, all centered around the **ESP8266** microcontroller.
 
-### Key Features
+#### Key Features
 
 - **ESP8266** microcontroller for Wi-Fi-based control and automation
 - **Dual stepper motor support**:
@@ -129,25 +147,25 @@ This is a custom-designed PCB developed for a modular ribbon and belt cutter sys
 - **Compact single-board design**, suitable for enclosure mounting
 - Designed in **Altium Designer**
 
-### PCB 3D View
-![Assembled PCB](assets/ModularCutterPCB.png)
-![Assembled PCB](assets/ModularCutterPCBbottom.png)
+#### PCB 3D View
+- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/ModularCutterPCB.png)
+- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/ModularCutterPCBbottom.png)
 
-### Documentation & Downloads
+#### Documentation & Downloads
 
 Gerber Files  [Download ZIP](assets/Project Outputs for Modular cutter.zip)
 
-### Applications
+#### Applications
 
 - Modular automatic ribbon or wire cutters
 - Embedded automation tools
 - IoT-controlled electromechanical systems
 
-## All-Terrain Robot PCB
+### All-Terrain Robot PCB
 
 This is a custom-designed PCB for controlling an all-terrain mobile robot. It is based on the **ESP8266** microcontroller and built to interface directly with **BTS7960 motor drivers** for robust DC motor control. The board also features onboard power regulation to support both logic and motor voltage requirements.
 
-### Key Features
+#### Key Features
 
 - **ESP8266** microcontroller for Wi-Fi-based wireless control
 - **Motor Driver Interface**:
@@ -161,21 +179,21 @@ This is a custom-designed PCB for controlling an all-terrain mobile robot. It is
 - **Compact and rugged design**, ideal for mobile robotics platforms
 - Designed using **Altium Designer**
 
-### PCB 3D View
-![Assembled PCB](assets/Allterrain.png)
-![Assembled PCB](assets/AllterrainBottom.png)
+#### PCB 3D View
+- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/Allterrain.png)
+- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/AllterrainBottom.png)
 
-### Applications
+#### Applications
 
 - All-terrain mobile robots
 - Wi-Fi remote-controlled rovers
 - Educational robotics platforms
 
-## 3.3V LDO Power Supply Module
+### 3.3V LDO Power Supply Module
 
 This project is a compact and efficient power supply PCB that converts input voltage to a stable **3.3V output** using the **MIC5317-3.3YM5-TR** Low Dropout (LDO) regulator. It’s designed for powering low-power embedded systems, sensors, or wireless modules.
 
-### ⚙️ Key Features
+#### Key Features
 
 - **MIC5317-3.3YM5-TR** LDO regulator
   - Output: 3.3V up to 500mA
@@ -186,22 +204,18 @@ This project is a compact and efficient power supply PCB that converts input vol
   - **SM02B-GHS-TB(LF)(SN)** 2-pin JST-type surface mount connector for 3.3V output
 - **Compact footprint**: ideal for integration into larger systems or standalone use
 
-### PCB 3D View
+#### PCB 3D View
 
-![Assembled PCB](assets/LDOpcb.png)
-![Assembled PCB](assets/LDOpcbBottom.png)
-### Documentation & Downloads
+- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/LDOpcb.png)
+- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/LDOpcbBottom.png)
+#### Documentation & Downloads
 Gerber Files  [Download ZIP](assets/Project Outputs for LDOconervter.zip)
 
-### Applications
+#### Applications
 
 - 3.3V supply for ESP modules, sensors, and logic circuits
 - Custom embedded systems
 - Prototyping and low-power IoT devices
 
-## 📬 Contact
 
--  **Email:** lassoued10.mohamedaziz@gmail.com  
--  **LinkedIn:** [Mohamed Aziz Lassoued](https://www.linkedin.com/in/mohamed-aziz-lassoued-272762270)  
--  **GitHub:** [med-aziz1](https://github.com/med-aziz1)
--  **Phone:** +216 25 333 669
+
