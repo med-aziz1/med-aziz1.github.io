@@ -94,9 +94,14 @@ This is a custom 4-layer development board designed around the **ESP32-S3-MINI-1
 ![Assembled PCB](assets/ESP32S3 topView.png)
 ![Assembled PCB](assets/ESP32S3 bttomView.png)
 
-### Documentation
+### Documentation & Downloads
 ESP32-S3-MINI-1 Datasheet [Download PDF](assets/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)
 Gerber Files  [Download ZIP](assets/Gerber.zip)
+### Applications
+
+- Embedded prototyping
+- USB-based device development
+- IoT systems using ESP-IDF
 
 ## Custom PCB to control the Modular Cutter Device
 
@@ -122,14 +127,69 @@ This is a custom-designed PCB developed for a modular ribbon and belt cutter sys
 
 ### Documentation & Downloads
 
-Gerber Files  [Download ZIP](assets/Gerber.zip)
+Gerber Files  [Download ZIP](assets/Project Outputs for Modular cutter.zip)
 
-### ⚙️ Applications
+### Applications
 
 - Modular automatic ribbon or wire cutters
 - Embedded automation tools
 - IoT-controlled electromechanical systems
-- Prototyping motion control projects with stepper motors
 
----
+## All-Terrain Robot PCB
+
+This is a custom-designed PCB for controlling an all-terrain mobile robot. It is based on the **ESP8266** microcontroller and built to interface directly with **BTS7960 motor drivers** for robust DC motor control. The board also features onboard power regulation to support both logic and motor voltage requirements.
+
+### Key Features
+
+- **ESP8266** microcontroller for Wi-Fi-based wireless control
+- **Motor Driver Interface**:
+  - Dual channel outputs to control two **BTS7960** H-bridge drivers
+  - Suitable for driving high-current DC motors
+- **Power Supply**:
+  - **12V input** used directly for powering DC motors
+  - **LM7805 regulator** provides a **stable 5V output** to power the ESP8266
+- **Control Interfaces**:
+  - Logic-level pins routed to BTS7960 IN/EN/IS pins for PWM and direction control
+- **Compact and rugged design**, ideal for mobile robotics platforms
+- Designed using **Altium Designer**
+
+### PCB 3D View
+![Assembled PCB](assets/Allterrain.png)
+![Assembled PCB](assets/AllterrainBottom.png)
+
+### Applications
+
+- All-terrain mobile robots
+- Wi-Fi remote-controlled rovers
+- Educational robotics platforms
+
+## 3.3V LDO Power Supply Module
+
+This project is a compact and efficient power supply PCB that converts input voltage to a stable **3.3V output** using the **MIC5317-3.3YM5-TR** Low Dropout (LDO) regulator. It’s designed for powering low-power embedded systems, sensors, or wireless modules.
+
+### ⚙️ Key Features
+
+- **MIC5317-3.3YM5-TR** LDO regulator
+  - Output: 3.3V up to 500mA
+  - Low dropout voltage
+  - Ultra-low quiescent current
+- **Input Voltage**: 3.6V – 5.5V
+- **Output Connector**: 
+  - **SM02B-GHS-TB(LF)(SN)** 2-pin JST-type surface mount connector for 3.3V output
+- **Compact footprint**: ideal for integration into larger systems or standalone use
+
+### PCB 3D View
+
+![Assembled PCB](assets/LDOpcb.png)
+![Assembled PCB](assets/LDOpcbBottom.png)
+### Documentation & Downloads
+Gerber Files  [Download ZIP](assets/Project Outputs for LDOconervter.zip)
+
+### Applications
+
+- 3.3V supply for ESP modules, sensors, and logic circuits
+- Custom embedded systems
+- Prototyping and low-power IoT devices
+
+
 
