@@ -1,7 +1,7 @@
 # Electrical Automation Engineer
 
 ## About
-This portfolio showcases my work as an Electrical and Automation Engineer. **Passionate about PCB design, embedded systems, and IoT-based industrial solutions**, I am seeking a full-time role in hardware design.
+Welcome to my portfolio, where I showcase my work as an Electrical Automation Engineer. **Passionate about PCB design, embedded systems, and IoT-based industrial solutions**, I am seeking a full-time role in hardware design.
 
 - **Email:** [lassoued10.mohamedaziz@gmail.com](mailto:lassoued10.mohamedaziz@gmail.com)  
 - **LinkedIn:** [Mohamed Aziz Lassoued](https://www.linkedin.com/in/mohamed-aziz-lassoued-272762270)  
