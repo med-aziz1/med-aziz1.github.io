@@ -1,6 +1,14 @@
 # Electrical Automation Engineer
+Passionate about embedded systems, PCB design, and IoT-based industrial solutions.
 
-#### Technical Skills: Altium Designer, Saturn PCB Toolkit, ISIS proteus, JTAG/SWD, VS Code, PlatformIO, STM32CubeIDE
+#### Technical Skills
+
+**CAD and Simulation Tools:** Altium Designer, Saturn PCB Toolkit, Proteus, ModelSim, LabVIEW, Simulink
+**Software and IDEs:** STM32CubeIDE, Visual Studio Code, Arduino IDE, TIA Portal, Android Studio, Google Colab 
+**Programming Languages:** C/C++, Python, Assembler, Java, Dart, MATLAB, VHDL     
+**Communication Protocols:** UART, I2C, SPI, CAN, MQTT, HTTP  
+**Microcontrollers / Microprocessors:** STM32, ESP32, Raspberry Pi, Arduino, MSP430  
+**Development Frameworks and Debugging Tools:** FreeRTOS, ESP-IDF, Git, JTAG/SWD, OpenOCD
 
 ## Education
 - **National Engineering School of Gabes (ENIG)**, Electrical and Automation Engineering  
@@ -191,5 +199,9 @@ Gerber Files  [Download ZIP](assets/Project Outputs for LDOconervter.zip)
 - Custom embedded systems
 - Prototyping and low-power IoT devices
 
+## 📬 Contact
 
-
+-  **Email:** lassoued10.mohamedaziz@gmail.com  
+-  **LinkedIn:** [Mohamed Aziz Lassoued](https://www.linkedin.com/in/mohamed-aziz-lassoued-272762270)  
+-  **GitHub:** [med-aziz1](https://github.com/med-aziz1)
+-  **Phone:** +216 25 333 669
