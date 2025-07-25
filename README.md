@@ -234,7 +234,7 @@ This project features a custom PCB designed to demonstrate the dynamic behavior 
 
   #### PCB 3D View
 - **Figure 1: PCB Top View** ![3D PCB](assets/2nd ordre 3D.png)
-- **Figure 2: PCB Top View** ![Assembled PCB](assets/2ndordrePCB.png)
+- **Figure 2: ASsmebled PCB Top View** ![Assembled PCB](assets/2ndordrePCB.png)
 - **Figure 3: PCB inside enclosure View** ![Final Prototype](assets/2nd ordrePCB in enclosure.png)
 - 
 #### Applications
@@ -255,9 +255,9 @@ This PCB is designed to **adapt an input range of [−5V ; +5V]** to a **microco
   - Converts bipolar ±5V signal into unipolar 0–5V range
 - Designed for **Arduino-based system control**
 
-   #### PCB 2D View
+#### PCB 2D View
 - **Figure 1: PCB Top View** ![2D PCB](assets/adaptationPCB.png)
-- **Figure 2: PCB Top View** ![Assembled PCB](assets/carte_d'adaptation.jpeg) 
+- **Figure 2: ASsembled PCB Top View** ![Assembled PCB](assets/carte_d'adaptation.jpeg) 
 
 #### Documentation & Downloads
 Printing with PDF Files  [Download PDF](assets/typon.pdf)
