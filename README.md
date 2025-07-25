@@ -1,4 +1,4 @@
-# Mohamed Aziz Lassoued - Electrical Automation Engineer
+# Electrical Automation Engineer
 
 ## About
 This portfolio showcases my work as an Electrical and Automation Engineer. **Passionate about PCB design, embedded systems, and IoT-based industrial solutions**, I am seeking a full-time role in hardware design.
@@ -79,9 +79,9 @@ A visual snapshot of the routed PCB, highlighting copper traces, component place
 #### Assembled PCB  
 Final assembled board used for testing and integration with the smart metering system.
 
-- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/pcbfinaleaveclora-removebg-preview.png)
+- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/ModularmotherboardTOP.png)
 
-- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/pcbfinalbottom-removebg-preview (1).png)
+- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/Modularmotherboardbottom.png)
 
 #### Demonstration – Flashing and Testing  
 Short demonstration of alimentation testing, firmware upload via ST-Link for STM32, and via USB to UART converter for ESP32.
@@ -91,8 +91,9 @@ Short demonstration of alimentation testing, firmware upload via ST-Link for STM
 #### Applications
 - Smart metering systems  
 - Industrial IoT solutions
-- 
+
 ### ESP32-S3 Mini Board Design
+
 **Technologies:** ESP32-S3-MINI-1, Altium Designer, Saturn PCB Toolkit, CH343, USB-C
 
 #### Overview
@@ -116,8 +117,8 @@ This is a custom 4-layer development board designed around the **ESP32-S3-MINI-1
 - USB differential pair routing optimized for signal quality
 
 #### PCB 3D View
-- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/ESP32S3 topView.png)
-- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/ESP32S3 bttomView.png)
+- **Figure 1: PCB Top View** ![Assembled PCB](assets/ESP32S3 topView.png)
+- **Figure 2: PCB Bottom View** ![Assembled PCB](assets/ESP32S3 bttomView.png)
 
 #### Documentation & Downloads
 -ESP32-S3-MINI-1 Datasheet [Download PDF](assets/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)
@@ -148,8 +149,8 @@ This is a custom-designed PCB developed for a modular ribbon and belt cutter sys
 - Designed in **Altium Designer**
 
 #### PCB 3D View
-- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/ModularCutterPCB.png)
-- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/ModularCutterPCBbottom.png)
+- **Figure 1: PCB Top View** ![Assembled PCB](assets/ModularCutterPCB.png)
+- **Figure 2: PCB Bottom View** ![Assembled PCB](assets/ModularCutterPCBbottom.png)
 
 #### Documentation & Downloads
 
@@ -180,8 +181,8 @@ This is a custom-designed PCB for controlling an all-terrain mobile robot. It is
 - Designed using **Altium Designer**
 
 #### PCB 3D View
-- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/Allterrain.png)
-- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/AllterrainBottom.png)
+- **Figure 1: PCB Top View** ![Assembled PCB](assets/Allterrain.png)
+- **Figure 2: PCB Bottom View** ![Assembled PCB](assets/AllterrainBottom.png)
 
 #### Applications
 
@@ -205,17 +206,64 @@ This project is a compact and efficient power supply PCB that converts input vol
 - **Compact footprint**: ideal for integration into larger systems or standalone use
 
 #### PCB 3D View
-
-- **Figure 1: Assembled PCB Top View** ![Assembled PCB](assets/LDOpcb.png)
-- **Figure 2: Assembled PCB Bottom View** ![Assembled PCB](assets/LDOpcbBottom.png)
+- **Figure 1: PCB Top View** ![Assembled PCB](assets/LDOpcb.png)
+- **Figure 2: PCB Bottom View** ![Assembled PCB](assets/LDOpcbBottom.png)
+  
 #### Documentation & Downloads
 Gerber Files  [Download ZIP](assets/Project Outputs for LDOconervter.zip)
 
 #### Applications
 
 - 3.3V supply for ESP modules, sensors, and logic circuits
-- Custom embedded systems
 - Prototyping and low-power IoT devices
 
+### Second-Order System Response Prototype
+
+This project features a custom PCB designed to demonstrate the dynamic behavior of a **second-order system**, commonly studied in control systems theory. It is used in university lab sessions to analyze step responses via oscilloscope observation.
+
+#### Key Features
+
+- **Two operational amplifiers** configured to simulate a second-order response
+- **Adjustable parameters**: 
+  - **Gain (K)** and **damping ratio (ξ)** via onboard potentiometers
+- **Input/Output interface**: 
+  - Step input applied through a connector (**Ve**)  
+  - Output observed from **Vs** using oscilloscope probes  
+  - Power supplied via **+VCC**, **−VCC**, and **GND**
+- **Connector-based wiring** for easy lab integration and oscilloscope connection
+
+  #### PCB 3D View
+- **Figure 1: PCB Top View** ![3D PCB](assets/2nd ordre 3D.png)
+- **Figure 2: PCB Top View** ![Assembled PCB](assets/2ndordrePCB.png)
+- **Figure 3: PCB inside enclosure View** ![Final Prototype](assets/2nd ordrePCB in enclosure.png)
+- 
+#### Applications
+
+- Academic demonstrations of system response to a step input  
+- Control systems practical training
+
+### ±5V to 0–5V Analog Signal Conditioning Module
+
+This PCB is designed to **adapt an input range of [−5V ; +5V]** to a **microcontroller-compatible range of [0V ; 5V]**. It is used to **command a first-order system** using an Arduino UNO's digital-to-analog output, providing a safe and usable analog signal.
+
+#### Key Features
+
+- **Dual op-amp design** for signal adaptation and level shifting  
+- **Voltage regulators**:
+  - **LM7805** provides stable 5V output  
+- **Input/output range conversion**:
+  - Converts bipolar ±5V signal into unipolar 0–5V range
+- Designed for **Arduino-based system control**
+
+   #### PCB 2D View
+- **Figure 1: PCB Top View** ![2D PCB](assets/adaptationPCB.png)
+- **Figure 2: PCB Top View** ![Assembled PCB](assets/carte_d'adaptation.jpeg) 
+
+#### Documentation & Downloads
+Printing with PDF Files  [Download PDF](assets/typon.pdf)
+#### Applications
+
+- Step response input conditioning  
+- Safe analog interfacing with Arduino and acquisition systems
 
 
