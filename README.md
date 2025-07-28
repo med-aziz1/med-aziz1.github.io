@@ -92,6 +92,48 @@ Short demonstration of alimentation testing, firmware upload via ST-Link for STM
 - Smart metering systems  
 - Industrial IoT solutions
 
+### Polychaeta PCB
+
+**Technologies:** ESP32, RFM95W-868S2, Altium Designer, LM2596S, TL1963A, SD Card, MAX485, RS-485, UART, LoRa, IoT
+
+#### Overview
+This is a custom 2-layer PCB designed for remote environmental monitoring and real-time data collection, especially in marine environments. Based on the **ESP32 microcontroller**, the board interfaces with **seven RS-485 sensors** to gather data such as salinity, and transmits it to the cloud via **LoRa** for long-range communication. It also includes **local SD card storage** as a fallback when internet connectivity is unavailable.
+
+#### Key Features
+
+- **ESP32 bare chip** for optimized embedded integration
+- **RFM95W-868S2 LoRa module** for low-power, long-distance wireless communication
+- **SD card interface** for local data logging
+- **UART to RS-485 (MAX485)** module to collect data from **7 industrial-grade sensors**
+- **12V power input** for simplified deployment with:
+  - **LM2596S** DC-DC buck converter for stable 5V output (for sensors)
+  - **TL1963A-33** LDO regulator to power ESP32, LoRa, and SD card
+- Compact **2-layer PCB** layout optimized for modular deployment
+
+#### Design Details
+
+- Designed using **Altium Designer**
+- Power regulation carefully cascaded to isolate noise-sensitive components (MCU and LoRa)
+- Robust connector layout for industrial sensors
+- Compact and low-cost form factor optimized for real-world field deployment
+
+#### Application Context
+Part of the **Polychaeta Project**, this board supports smart environmental monitoring by collecting and analyzing physical parameters in marine or industrial settings. Combined with cloud services and other embedded platforms (e.g., STM32), the system aims to provide **autonomous**, **reliable**, and **sustainable** tools for environmental protection and ecosystem management.
+
+#### Documentation & Downloads
+- **Figure 1: PCB Top View** ![Assembled PCB](assets/PolychaetaTOP.png)
+- **Figure 2: PCB Bottom View** ![Assembled PCB](assets/PolychaetaBOTTOM.png)
+
+#### Documentation & Downloads
+-Assembly Files  [Download PDF](assets/Job1.PDF)
+
+#### Applications
+
+- Remote environmental monitoring
+- Industrial IoT systems with cloud integration
+- Data logging in isolated or low-connectivity environments
+
+
 ### ESP32-S3 Mini Board Design
 
 **Technologies:** ESP32-S3-MINI-1, Altium Designer, Saturn PCB Toolkit, CH343, USB-C
